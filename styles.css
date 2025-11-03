@@ -1,0 +1,21 @@
+body{
+    background-color: blanchedalmond;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+<style>
+          .avatar-wrapper{
+               width: 25%;
+               max-width: 200px;
+               aspect-ratio: 1/1;
+          }
+          .avatar-responsive{
+               width: 100px;
+               height: 159px;
+               border-radius: 50%;
+               object-fit: cover;
+               display: block;
+          }
+      </style>
